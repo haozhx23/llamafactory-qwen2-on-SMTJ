@@ -36,7 +36,7 @@ torchrun $DISTRIBUTED_ARGS /opt/ml/code/LLaMA-Factory/src/train.py \
     --cutoff_len 512 \
     --learning_rate 2e-6 \
     --num_train_epochs 1 \
-    --max_steps 5 \
+    --max_steps 10 \
     --max_samples 100000 \
     --per_device_train_batch_size 1 \
     --gradient_accumulation_steps 1 \
